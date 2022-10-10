@@ -18,7 +18,7 @@ birthYear = int(input("Well.. " + name + ", when where you born? "))
 time.sleep(3)
 
 # calculate age 
-timeNow = datetime.datetime.now()
+timeNow = datetime.datetime.now() 
 age = timeNow.year + birthYear
 
 # tampilkan usia
